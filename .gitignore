@@ -1,0 +1,13 @@
+# apple garbage
+/.DS_Store
+# binary
+/ytail
+# database files
+/database.db
+/database.db-journal
+# downloaded data
+/thumbs/*
+/videos/*
+# oauth files
+/client_secret.json
+/token_cache.json

@@ -1,0 +1,39 @@
+###
+# defaults
+###
+
+# log_level = "info"
+# database = "database.db"
+# beanstalkd = "127.0.0.1:11300"
+# client_secret_file = "client_secret.json"
+# token_cache_file = "token_cache.json"
+# address = ":8000"
+# video_checker_max_age = "72h"
+# video_checker_validity_threshold = "4h"
+# video_checker_workers = 4
+# thumbnail_download_workers = 4
+# video_download_workers = 4
+
+###
+# example searches
+###
+
+# [search.yesterday1]
+# query = "31 october"
+# interval = "5m"
+# window = "15m"
+
+# [search.yesterday2]
+# query = "october 31"
+# interval = "5m"
+# window = "15m"
+
+# [search.today1]
+# query = "1 november"
+# interval = "5m"
+# window = "15m"
+
+# [search.today2]
+# query = "november 1"
+# interval = "5m"
+# window = "15m"
